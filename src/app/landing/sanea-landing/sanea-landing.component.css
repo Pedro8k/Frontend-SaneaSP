@@ -1,0 +1,64 @@
+/* sanea-landing.component.css */
+
+.landing__hero {
+    /* Cor de fundo baseada na imagem */
+    background-color: var(--primary-color); 
+    background-image: var(--background-image); /* Se você quiser o fundo de imagem */
+    padding: var(--space-8) 0; 
+    min-height: 50vh; /* Ajuste a altura do hero */
+    width: 100%;
+}
+
+.landing__header {
+    width: 90%; 
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-bottom: var(--space-12);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+}
+
+.hero__content {
+    padding: var(--space-8) var(--space-4);
+    max-width: 800px;
+    gap: var(--space-4);
+}
+
+.hero__subtitle {
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Seção de descrição */
+.landing__description {
+    padding: var(--space-16);
+    gap: var(--space-8);
+    background-color: var(--background-color);
+}
+
+.description__text {
+    max-width: 900px;
+    text-align: left;
+}
+
+.benefits__list {
+    margin-top: var(--space-6);
+    list-style: none; /* Remove o marcador padrão de lista */
+    padding-left: 0;
+}
+
+.benefits__list li {
+    margin-bottom: var(--space-2);
+}
+
+/* CTA Secundário */
+.landing__cta-secondary {
+    background-color: var(--tertiary-color);
+    padding: var(--space-12);
+    gap: var(--space-4);
+    margin: var(--space-12) 0;
+}
